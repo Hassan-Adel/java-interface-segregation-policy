@@ -1,8 +1,8 @@
 package com.tutorial;
 
 public class dragger {
-    public void drag(UIWidget widget){
-        widget.drag();
+    public void drag(Draggable draggable){
+        draggable.drag();
         System.out.println("dragging");
     }
 }
